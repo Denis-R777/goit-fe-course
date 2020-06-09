@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+body {    
+font-family: "Raleway","Arial","PlayfairDisplay","Times New Roman",sans-serif;
+color: #626262;
+font-size: 14px;
+line-height: 24px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto; 
+}
+
+.page-nav {
+    margin-top: 70px;
+    margin-right: 20px ;
+    margin-left: 100px;
+}
+
+.site-navigation {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    color:#626262 ;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    margin-bottom: 102px;
+}
+
+.site-navigation a {
+    color: #626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;   
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+
+.site-navigation li {
+    display: inline-block;    
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 120px; 
+}
+
+.lifestyle-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.lifestyle-list-item {
+   display: inline-block;
+   width: 420px;
+   margin-right: 14px;
+ }
+
+.lifestyle-list-item:not(:nth-child(2n)) {
+    margin-right: 45px;
+} 
+
+.lifestyle-list-name {
+    font-size: 14px;
+    line-height: 16px;
+    color: #b4ad9e;
+    margin-bottom: 32px;
+}
+
+ h2 {
+    font-size: 26px;
+    line-height: 1.2;
+    color: #626262; 
+ }  
+
+.lifestyle-list-about {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+
+ .loadmore {
+    width: 164px;
+    height: 60px;
+    cursor: pointer;
+} 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
+
+
